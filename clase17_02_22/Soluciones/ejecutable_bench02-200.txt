@@ -1,0 +1,20 @@
+Número ingresado: 200
+ 0.079649 
+Número ingresado: 200
+ 0.083892 
+Número ingresado: 200
+ 0.084023 
+Número ingresado: 200
+ 0.079369 
+Número ingresado: 200
+ 0.079421 
+Número ingresado: 200
+ 0.079364 
+Número ingresado: 200
+ 0.086411 
+Número ingresado: 200
+ 0.079493 
+Número ingresado: 200
+ 0.079582 
+Número ingresado: 200
+ 0.079633 
