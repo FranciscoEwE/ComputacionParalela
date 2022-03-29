@@ -1,6 +1,6 @@
 /*
-* Date: 2022-03-08
-* Author: Francisco Jose Rivera Gonzalez
+* Date: 2022-0222
+* Author: Juan Camilo Rodriguez
 * Course: Paralell and Distributed Computing
 * Topic: Posix
 * Benchmark: Programa para multiplical matrices sin variables globales
