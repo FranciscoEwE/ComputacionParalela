@@ -1,6 +1,6 @@
 /* Universidad Sergio Arboleda 
 	Fecha : 08-02-2022
-	Autor : Juan Camilo Rodriguez
+	Autor : Francisco Jose Rivera Gonzalez
 	Materia : Parallel Computing
 	Tema : Implementación Benchmark en C
 */
@@ -31,7 +31,9 @@ struct Data
 	double **Mc;
 };
 
-Data *data = {};
+
+Data *data;
+
 
 /* -------------------------------------Funciones ------------------------------------*/
 
@@ -193,8 +195,15 @@ void printMatriz_posix(double **matriz, int size){
 
 
 void recoger_datos(int N, int Nthreads, double **Ma, double **Mb, double **Mc){
-	Data data = { N, Nthreads, Ma, Mb, Mc};
-	printf("N %d",data.N);
+	Data datos = { N, Nthreads, Ma, Mb, Mc};
+	printf("N = %d, Nthreads = %d\n", N,Nthreads,Ma,Mb);
+	//printMatriz_posix(Ma, N);
+	//printMatriz_posix(Mb, N);
+	//printMatriz_posix(Mc, N);
+	data = &datos;
+
+	
+
 }
 
 
