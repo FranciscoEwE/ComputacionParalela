@@ -95,7 +95,7 @@ void printMatrix(int SZ, double *M){
 	@param c: Total matrix of multiplication
     ---
 */
-void matrixMultiplyMM1c(int size, double *Ma, double *Mb, double *Mr){
+void MM1c(int size, double *Ma, double *Mb, double *Mr){
 	int i, j;
 	for(i=0; i<size; ++i){
 		for(j=0; j<size; ++j){
@@ -112,7 +112,7 @@ void matrixMultiplyMM1c(int size, double *Ma, double *Mb, double *Mr){
 	}
 }
 
-void matrixMultiplyMM1f(int size, double *Ma, double *Mb, double *Mr){
+void MM1f(int size, double *Ma, double *Mb, double *Mr){
   int i, j;
 	for(i=0; i<size; ++i){
 		for(j=0; j<size; ++j){
